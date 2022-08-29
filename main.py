@@ -1,3 +1,18 @@
+#!/usr/bin/env python
+# -*- coding: utf8 -*-
+
+# Forked From https://github.com/CaffeinatedTech/Python_Nibbles
+# Written by CaffeinatedTech
+
+# New Fork:
+# Developed by mehrdad-mixtape https://github.com/mehrdad-mixtape/Snake_Game_Pyxel
+
+# Python Version 3.6 or higher
+# Snake Game
+
+__repo__ = 'https://github.com/mehrdad-mixtape/Snake_Game_Pyxel'
+__version__ = 'v0.1.1'
+
 import pyxel, sys
 from enum import Enum
 from time import time
