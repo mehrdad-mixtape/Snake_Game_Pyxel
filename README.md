@@ -34,3 +34,4 @@ $ python3 main.py
 - [ ] Create new levels
 - [ ] Change tail of snake
 - [ ] Make better audios
+- [ ] New Fruits
