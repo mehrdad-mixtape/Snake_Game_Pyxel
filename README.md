@@ -21,3 +21,16 @@ Check out the tutorial [here](https://youtu.be/Qg16VhEo2Qs)
 ```bash
 $ python3 main.py
 ```
+## Key-binds:
+- `m`: Stop Music
+- `Esc`: Close Game
+- `Enter`: New Game After Lose
+- `Up Arrow`: Move Up
+- `Down Arrow`: Move Down
+- `Left Arrow`: Move Left
+- `Right Arrow`: Move Right
+
+## TODO:
+- [ ] Create new levels
+- [ ] Change tail of snake
+- [ ] Make better audios
