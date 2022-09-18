@@ -86,8 +86,8 @@ class Apple:
 # Also checking if something intersects it (snake crashed into itself or walls)
 class Snake:
     def __init__(self, x: int, y: int, is_head: bool=False):
-        self._x = x
-        self._y = y
+        self.x = x
+        self.y = y
         self.__w = W
         self.__h = H
         self._is_head = is_head
@@ -115,20 +115,6 @@ class Snake:
                 height *= -1
         
         pyxel.blt(self._x, self._y, 0, sprite_x, sprite_y, width, height)
-
-    @property
-    def x(self) -> int:
-        return self._x
-    @x.setter
-    def x(self, value: int) -> None:
-        self._x = value
-    
-    @property
-    def y(self) -> int:
-        return self._y
-    @y.setter
-    def y(self, value: int) -> None:
-        self._y = value
 
     def intersects(self, u, v, w, h) -> bool:
         is_intersected = False
