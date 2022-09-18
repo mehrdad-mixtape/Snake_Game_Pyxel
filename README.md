@@ -7,7 +7,7 @@
 Check out the tutorial [here](https://youtu.be/Qg16VhEo2Qs)
 
 **Warning:** This tutorial work with older version of `pyxel`!
-- This Fork is compatible with latest version of `pyxel` ***v1.7.2***
+- This Fork is compatible with latest version of `pyxel` ***v1.8.4***
 
 ### Requirements
 * [Python 3](https://www.python.org)
